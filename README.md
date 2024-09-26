@@ -30,7 +30,7 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository or download the source code.
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/sushiroll-206/pythonDesktopApplication.git
    cd pythonDesktopApplication
    ```
 2. Create a virtual environment
