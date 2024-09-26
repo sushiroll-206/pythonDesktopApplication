@@ -1,5 +1,7 @@
 # Monaco Clock
 
+![Monaco Clock Screenshot](img/monacoClock.png)
+
 ## Overview
 
 Monaco Clock is a simple desktop application that displays the current time in a visually appealing format. The application is built using Python with the PyQt6 framework and QML for the user interface. It features a beautiful background of Monaco and updates the time every second.
