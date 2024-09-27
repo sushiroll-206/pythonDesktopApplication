@@ -1,7 +1,7 @@
 import sys
 import os 
 import threading
-from time import strftime, gmtime, sleep
+from time import strftime, sleep, localtime
 
 from PyQt6.QtGui import QGuiApplication
 from PyQt6.QtQml import QQmlApplicationEngine
@@ -23,7 +23,7 @@ class Backend(QObject):
 
     def _bootUp(self):
         while True:
-            curr_time = strftime("%H:%M:%S", gmtime())
+            curr_time = strftime("%H:%M:%S", localtime())
             self.updater(curr_time)
             sleep(0.1)
     
